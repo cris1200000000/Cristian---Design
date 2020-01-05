@@ -502,3 +502,164 @@ body{
     margin-top: 15px;
     margin-bottom: 45px;
 }
+.derecha{
+    display: flex;
+    flex-direction: column;
+    width: 16.66666%;
+    margin-right: 20px;
+}
+.upcoming-evets{
+    margin-top: 30px;
+}
+.div-upcoming-events{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.p-upcoming-events{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.img-upcoming{
+    width: 85%;
+}
+.div-img-upcoming{
+    display: flex;
+    justify-content: center;
+}
+.Holiday{
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+.friday{
+    font-size: 15px;
+    color: black;
+    margin-top: 25px;
+    text-align: center;
+}
+.buttons-up{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.buttons-up-2{
+    padding: 8px 16px;
+    background-color: #dfe5e8;
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+.buttons-up-2:hover{
+    background-color: #ccc;
+}
+.p-up{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.div-friend-request{
+    margin-top: 20px;
+}
+.p-fr{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div-img-fr{
+    display: flex;
+    justify-content: center;
+}
+.img-fr{
+    width: 50%;
+}
+.p-fr-1{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img-fr-all{
+    width: 15px;
+    height: 15px;
+}
+.div-button-fr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.buttons-check{
+    padding: 8px 16px;
+    width: 40%;
+    background-color: green;
+}
+.buttons-check:hover{
+    background-color: #ccc;
+
+}
+.buttons-check:hover .img-fr-all{
+    filter: brightness(0);
+}
+.buttons-x{
+    padding: 8px 16px;
+    width: 40%;
+    background-color: red;
+}
+.buttons-x:hover{
+    background-color: #ccc;
+}
+.buttons-x:hover .img-fr-all{
+    filter: brightness(0);
+}
+.ADS{
+    margin-top: 20px;
+}
+.pADS{
+    font-size: 16px;
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.anuncio{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 50px 0px;
+}
+.img-anuncio{
+    width: 35px;
+    height: 35px;
+}
+.footercontainer{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    padding: 30px 0px;
+    background-color: #516a78;
+    display: flex;
+    align-items: center;
+}
+.p-footer{
+    margin-left: 25px;
+    font-size: 19px;
+    color: white;
+}
+.powered{
+    padding: 20px 0px;
+    background-color: #303e45;
+}
+.p-powered{
+    color: white;
+    margin-left: 25px;
+}
+.powered-link{
+    color: white;
+}
