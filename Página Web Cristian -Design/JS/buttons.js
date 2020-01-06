@@ -12,7 +12,7 @@ function MO2(){
 }
 function MO3(){
     var ancla3 = document.getElementsByClassName('div-text-a-3');
-    for(i=0; ancla3.length; i++){
+    for(i=0; i<ancla3.length; i++){
         ancla3[i].classList.toggle('desaparece');
     }
 }
@@ -29,4 +29,11 @@ const newStatusInput = document.querySelector('.inputsocialmedia');
 
 if (newStatusInput.value === '') {
 	newStatusInput.value += '   Status: Feeling Blue';
+}
+
+function bp(){
+    var menu = document.getElementsByClassName('div-botton-bp');
+    for(i=0; i<menu.length; i++){
+        menu[i].classList.toggle('desaparece-1');
+    }
 }
